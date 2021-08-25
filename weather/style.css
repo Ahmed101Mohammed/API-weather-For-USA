@@ -1,0 +1,99 @@
+/* Html & body  Style */
+html,body,{
+  width: 100%;
+  height: auto;
+}
+
+/* parent style: */
+.parent{
+  height: 685px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+  height: auto;
+    width: 80%;
+    padding: 20px;
+}
+
+/*user-post-req Style  */
+.user-post-req{
+  width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-post-req #zip{
+  display: block;
+    height: 22px;
+    width: 80%;
+    color: blue;
+    font-size: 18px;
+    border: 1px green solid;
+    outline: none;
+}
+
+.user-post-req #feelings{
+  font-size: 16px;
+    width: 80%;
+    margin: 20px 0px;
+    height: 179px;
+    border: 1px green solid;
+    outline: none;
+    display: none;
+}
+
+.user-post-req .generate{
+  width: 30%;
+    background-color: #57ff57;
+    border: 1px blue solid;
+    border-radius: 13px;
+    height: 31px;
+    color: #0043ff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top:5px;
+}
+
+.user-post-req #generate1{
+  display: none;
+}
+/* entryHolder Style */
+#entryHolder{
+  width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: whitesmoke;
+}
+
+#entryHolder #date{
+  width: 80%;
+}
+
+#entryHolder #temp{
+  width: 80%;
+  margin: 20px 0px;
+}
+
+#entryHolder #content{
+  width: 80%;
+}
+
+/* weather div style: */
+.weather{
+  width: 80%;
+    padding: 20px;
+    position: absolute;
+    top: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
